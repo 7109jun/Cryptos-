@@ -1,5 +1,12 @@
 # 🔮 Cryptos - 암호 언어 프로젝트
-
+Cryptos는 Creative Response Yields Pioneering Tongue Of Signals의 약자입니다
+Creative → 창의적인
+Response → 표현, 응답
+Yields → 만들어낸다
+Pioneering → 선구적인
+Tongue → 언어
+Of → ~의
+Signals → 기호, 신호
 ## 프로젝트란?
 
 **Cryptos**는 윙딩폰트(Wingdings Font)를 이용한 독특한 **암호 언어**입니다! 
