@@ -1,1 +1,66 @@
-여기에 적으세요 코파일럿
+# Variable
+
+## Status
+
+Confirmed
+
+## Source
+
+* Official EntryJS Documentation
+* Official Entry GitHub
+* ENX Verification
+
+## Overview
+
+Variable는 프로젝트에서 사용되는 모든 변수의 상태와 속성을 저장하는 데이터 구조이다.
+
+## JSON Structure
+
+```json
+{
+  "id": "...",
+  "variableType": "variable",
+  "name": "score",
+  "value": "0",
+  "minValue": 0,
+  "maxValue": 100,
+  "visible": false,
+  "x": 0,
+  "y": 0,
+  "width": 0,
+  "height": 0,
+  "isCloud": false,
+  "object": null
+}
+```
+
+## Fields
+
+| Field        | Type        | Description                          |
+| ------------ | ----------- | ------------------------------------ |
+| id           | Variable ID | 변수 ID                                |
+| variableType | string      | variable, list, timer, answer, slide |
+| name         | string      | 변수 이름                                |
+| value        | string      | 변수 값                                 |
+| minValue     | number      | 최소값                                  |
+| maxValue     | number      | 최대값                                  |
+| visible      | boolean     | 화면 표시 여부                             |
+| x            | number      | x 좌표                                 |
+| y            | number      | y 좌표                                 |
+| width        | number      | 표시 폭                                 |
+| height       | number      | 표시 높이                                |
+| isCloud      | boolean     | 공유 변수 여부                             |
+| object       | Object ID   | 지역 변수 소유 Object                      |
+| array        | Array Data  | List 전용 배열                           |
+
+## ENX Verification
+
+직접 확인된 내용만 기록한다.
+
+* Variable 생성 성공
+* Variable 이름 저장 성공
+* Variable 초기값 저장 성공
+* 여러 Variable 생성 성공
+* project.json 저장 성공
+* .ent 저장 성공
+* Entry Runtime 정상 인식
