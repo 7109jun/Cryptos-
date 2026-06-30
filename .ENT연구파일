@@ -50,7 +50,9 @@ Variable Data는 프로젝트 내에서 사용되는 모든 변수의 상태와 
 
 > Not available
 
-실제 project.json에서 추출한 JSON을 확보한 후 추가 예정.
+Reason:
+실제 project.json에서 추출한 Variable Data가 아직 확보되지 않았습니다.
+ENX 저장소는 추론을 허용하지 않으므로 실제 데이터를 확보한 이후 추가합니다.
 
 ## Verified by Documentation
 
